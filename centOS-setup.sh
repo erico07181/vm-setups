@@ -1,5 +1,6 @@
 #! /bin/bash
 yum update
+yum upgrade
 yum install vim-enhanced -y
 yum install net-tools -y
 
