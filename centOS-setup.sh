@@ -11,7 +11,7 @@ yum-config-manager \
     https://download.docker.com/linux/centos/docker-ce.repo
 
 yum install docker-ce docker-ce-cli containerd.io
-swapoff -add
+swapoff -a
 
 yum install apt-transport-https curl
 
