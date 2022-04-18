@@ -1,3 +1,4 @@
+#! /bin/bash
 dnf upgrade --refresh
 dnf install dnf-plugin-system-upgrade
 dnf system-upgrade download --releasever=35
